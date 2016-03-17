@@ -1,0 +1,370 @@
+class Game_Notes
+  def init_notes
+    @Titles = ["Contract",  #L0
+               "The Cave",  #L1
+               "Note",      #L1
+               "Geology Digest",  #L1
+               "The biggest Catastrophies",     #L1
+               "Letter to Jill",  #L1
+               "Lab Instructions",  #L1
+               "Jill's Diary", #L2
+               "Religion and Society", #L2
+               "Farming Calendar", #L2
+               "Farming Contract", #L2
+               "Letter from Nick", #L2
+               "Fabian's Diary", #L3
+               "Roadder’s Manifest", #L3
+               "Call to the People", #L3
+               "Assignment", #L3
+               "News", #L4
+               "Letter to Maike", #L4
+               "Recipy", #L4
+               "Note", #L4
+               "Ben's Diary", #L4
+               "X1", #L5
+               "X2", #L5
+               "X3", #L5
+               "X4", #L5
+               "X5", #L5
+               "Legend of Desn I", #LoD
+               "Legend of Desn II", #LoD
+               "Legend of Desn III", #LoD
+               "Legend of Desn IV", #LoD
+               "Legend of Desn V", #LoD
+              ]
+              
+    @Notes = [
+#---------level 1-------------#
+#Contract#
+"...............................",
+#The Cave#
+"Beware of the Cave of Choice.
+Five ways there are to enter the
+cave, but only one way leads out.
+If you do not possess a keystone
+to unlock the door, search the
+hidden lever.
+
+          O ^ O  
+           + +  
+        O       O
+           + +  
+         X     O",
+#Note#
+"We posted some guards at the
+canyon entrance, they will only
+let you pass if you tell them
+\"the other world awaits\". I 
+hope you understand, we can't let
+those peasants damage the portal.
+
+        Rob",
+#Geology Digest#
+"The wonders of our terrain: 
+One of the many wonders of our 
+world is the huge variety of 
+terrains presented. There are 
+forests, swamps, deserts and 
+lakes. Far in the north there 
+is also an ice desert to be 
+found, but traveling there 
+is very hard.",
+#The biggest Catastrophes"
+"One of the biggest mysteries 
+of our world is the yearly 
+reoccurance of earthquakes. 
+Data pulled from the archives 
+suggests that the intensity 
+of the earthquakes rise with 
+each year, reach huge levels 
+of destruction by the 57th year 
+and go back to minimal intensity 
+in the 58th year. There has been 
+lots of research on this topic, 
+but the cause of said earthquakes 
+could not be identified.",
+#Letter to Jill#
+"Dear Jill, 
+Please stop asking about my 
+research. I absolutely won’t 
+tell you anything else about 
+it. And no, the rumors neither 
+have anything to do with it, 
+nor are they true. 
+Please say hi to mom from me. 
+
+        In love, Thomas",
+#Lab Instructions#
+"Instruction to enter the lab: 
+To all scientists. 
+Please be aware that there has 
+been rumors in certain social 
+classes that suggest the unexpected 
+intensifying of the earthquakes 
+has to do with our recent research. 
+I advice you to avoid contact with 
+said classes. In case contact can 
+not be avoided, stay calm and don’t 
+let them provoke you. I remind you, 
+that it is forbidden to speak about 
+our research to outsiders. Note also 
+that the entry to the shrine has 
+been sealed - to enter it, look out 
+for the yellow flower by the statue 
+near the entrance. Rotate the 
+head of the flower to enter. ",
+
+#---------level 2-------------#
+#Jill's diary#
+"Dear diary, I’m worried about 
+my brother. There have been all 
+sorts of bad rumors about his 
+research lately. Neighbours who
+knew him since he was a little 
+boy started to talk about him 
+like he’s an evil cultist. Even 
+mother is mad at him for not 
+showing up and explaining himself. 
+She thinks our family has a bad 
+reputation now because of him...",
+#Religion and Society#
+"Man is the crown of creation. 
+But is this really true? Or are 
+we mere intruders who came to 
+a closed environment and enforced 
+us to its nature? If we developed
+inside this environment, why does
+it seem that it tries to push us
+away? Ever since we can remember,
+there have been catastrophies, 
+taking hundrets of lifes at once
+and it seems those catastrophies
+are getting growing in number and 
+impact. What if we are 
+misinterpreting our role in our 
+world? What if the world doesn’t 
+even want us here?",
+#Farming Calendar#
+"",
+#Farming Contract#
+"Dear Mr. Cobbot,
+when you have the arranged 
+amount of vegetables, we 
+will open a magic portal 
+near the big tree outside 
+your farm.
+Remember these are the 
+asked vegetables:
+3x Lettuce, 1x Tomatoes,
+3x Turnip, 2x Potatoes",
+#Letter from Nick#
+"Be careful on your way to get 
+our next batch of vegetables. 
+Mr. Cobbot has been really nice 
+to us, but something about him 
+seems fishy. How is he growing 
+his vegetables so fast? With all
+the cows he has, how come no 
+wild animals ever attack him? 
+        Nick",
+#---------level 3-------------#
+#Fabian's Diary#
+"I’m afraid our research came 
+to an end. The are more and more 
+riots every day. The farmers keep 
+blaming us for the earthquakes 
+and refuse to sell us food. The 
+farmers we already have been 
+working with simply disappear… 
+Yet the leaders refuse to let us 
+explain anything to the people. 
+Maybe I should just... ",
+#Roadder’s manifest#
+"The life has chosen you and you 
+can’t run from this choise. Whenever 
+you look at a smiling man or a 
+screaming child, at water flowing 
+or fire burning, you will face this. 
+Your actions is what life needs. 
+You are choosing your paths. 
+As long as there is earth, there 
+are paths. As long as there is light, 
+you can cast a shadow. As long as 
+there is air, there will be wind. 
+And sometimes it will blow into 
+your back. 
+I will tell you my story, but I 
+want you to read yours. 
+I will start. And only you will 
+decide where to stop.",
+#Call to the People#
+"Brethren! How long will we 
+have to suffer under the rule 
+of the Order of the Scholars? 
+Their doings has caused nothing 
+but harm to us! 
+Let’s stop this rule of misery!",
+#Assignment#
+" Scholar Fabian is behaving 
+strange lately. He has been 
+arguing against the necessity 
+of concealment and wasn’t seen 
+at the lab for several days. 
+Reports show, he has build a 
+shelter in the caves below the 
+forest. Search his shelter. In 
+case you find something 
+incriminating, do as you must 
+to resolve the situation.",
+#---------level 4-------------#
+#News#
+"Last week another city was 
+destroyed. The earthquakes are 
+now so bad, entire houses have 
+been collapsing into the void. 
+If this goes on, how can we 
+survive?",
+#Letter to Maike#
+"Maike, I did it! I spoke to 
+the captain of the last ship 
+and convinced him to take us 
+aboard! I know, you have doubts 
+about living on a ship… But you 
+have to realise that living on 
+land is getting too dangerous! 
+Please come to the harbor in two 
+days. Only take the most necessary.
+",
+#Better than Sex cake
+"Better than Sex cake.
+XXXXXXXXXXXXXXXXXXXXXX",
+#Note
+"With all this problems lately, 
+people forget how to smile. Mama, 
+please bake one of your famous 
+cakes tomorrow! I will invite the 
+neighbors over, so they might 
+relax a bit.",
+#Ben's Diary
+"There are no reports from the 
+other cities anymore. Have they 
+decided not to bother anymore? 
+Or is there no one left to report? 
+… 
+It’s getting harder to believe that 
+she is still alive. Her neighbors 
+wrote a while ago that she went to 
+another village to buy eggs and 
+never returned. The village 
+collapsed… But sometimes missing 
+people return. Maybe she just got 
+lost in the woods. Maybe… 
+Oh god, please let her be alive! 
+",
+#---------level 5-------------#
+#X1
+"The Legend of Desn is an old 
+fairy-tale that is used to scare 
+little farmer’s kids: “Be nice to 
+the nature or the gods will punish 
+you!”. There are no recordings of 
+the so called “Arrival” nor evidence 
+for the human factor in the 
+earthquakes. The legend itself 
+isn’t complete, there are certain 
+pieces that were lost for centuries. ",
+#X2
+"We were able to make contact to 
+another dimension! The messages 
+between our worlds travel long 
+but it seems we have met other 
+human beings. Their research is 
+similar to ours but their world 
+seems more advanced. 
+",
+#X3
+"The Contact was very benefitial 
+for us so far. Our brethren on 
+the other side told us about 
+their world, it seems it operates 
+completely without magic! This is 
+pretty hard to imagine but I hope 
+we can learn how to use those 
+technologies they’ve been writing 
+us about. I do hope we can meet 
+in person at some time. ",
+#X4
+"Incredible news! 
+Our brethren from the other side 
+are building a portal to make a 
+direct contact! They will adjust 
+it to react to our main portal. 
+Their research will take some 
+time though",
+#X5
+"There are no messages from our 
+brethren from the other side anymore. 
+We sent several messages to them but 
+no reaction. I wonder if everything 
+is alright? Farmers have been rioting 
+lately and the food situation is 
+getting worse… I hope they will send 
+us a message soon, we need help 
+immediately.",
+#-----------LoD---------------#
+#
+"Part I: Long ago there was no 
+man in the land we now call Desn. 
+It was filled with beautiful 
+creatures and beasts that lived 
+together in peace and harmony. 
+The water was so pure, it could heal. 
+Corn took only a heartbeat to grow 
+and the food was plenty. 
+Magic ruled the world.",
+#
+"Part II: Then the human came. 
+Their arrival was met with agression. 
+They never belonged in this world and 
+thus disturbed the harmony of the 
+beings. What’s worse, the world they 
+came from was not magic by nature and 
+Desn’s magic decreased to repair the 
+damage the Arrival has done. The water 
+lost its healing powers. Only a few 
+places kept the magic in their soil 
+that helped to grow food. The beasts 
+turned against each other, when they 
+felt hunger for the first time in 
+their lifes.",
+#
+"Part III: The gods of Desn were 
+furious. How dare these imperfect 
+beings destroy their world? To punish
+the intruders they sent earthquakes. 
+Each year the earthquakes would increase 
+in might and destructiveness. Many 
+men would die. When enough died, the 
+gods would show mercy and the 
+catastrophies would end. But ignorant 
+humans would gain strength again and 
+the gods would punish them again and 
+again in a neverending cycle.",
+#
+"Part IV: It is said that once there 
+will be a second Arriving. The world 
+will come to an end, as there will be
+no magic left in this world to protect
+the land from the inevitable destruction.
+All men will die a horrible dead. The 
+most creatures and beasts will follow 
+them. The second Arrival will make Desn
+an empty and miserable place. ",
+#
+"Part V: You who read this legend, 
+beware! Desn is doomed and it is 
+up to you to prevent its complete 
+destruction!"
+             ]
+  end
+end
